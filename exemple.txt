@@ -1,0 +1,9 @@
+etats: Q0,Q1,Q2;
+alphabet: a,b;
+initiale: Q0;
+transitions:
+Q0->Q1:a;
+Q1->Q1:a;
+Q1->Q1:b;
+Q1->Q2:b;
+finaux: Q2;
